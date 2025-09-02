@@ -8,7 +8,7 @@ import Cta from './sections/Cta'
 import Cta2 from './sections/Cta2'
 import Features from './sections/Features'
 import Footer from './sections/Footer'
-import About from './sections/about'
+import About from './sections/About'
 
 
 function App() {
