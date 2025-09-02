@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400..800&display=swap');
+@import "tailwindcss";
+
+
+@font-face{
+  font-family: "julius";
+  src:urlurl('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+}
+@layer utilities {
+  .debug {
+    outline: 2px solid red;
+  }
+}
+
+.main{
+  @apply max-w-full overflow-x-hidden;
+}
+.font1,.main{
+    font-family: "Julius Sans One";
+}
+.font1-500{
+  font-family: "Julius Sans One";
+   font-weight: 599;
+
+}
+
+.font2{
+  font-family :"TASA Explorer", sans-serif;
+}
+
+#nav-links{
+  cursor: hand;
+}
