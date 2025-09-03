@@ -1,12 +1,30 @@
-# React + Vite
+# 🌍 Wander Travels  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and elegant **travel website** built with **React, Vite, Tailwind CSS, and GSAP animations**.  
+This project reimagines travel experiences with smooth scrolling animations, responsive design, and a minimal aesthetic.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features  
+- 🎨 Modern UI/UX inspired by travel storytelling  
+- ⚡ Smooth GSAP animations with ScrollTrigger  
+- 📱 Fully responsive design  
+- ⚙️ Vite + React for fast builds   
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack  
+- **Frontend:** React + Vite  
+- **Styling:** Tailwind CSS  
+- **Animations:** GSAP + ScrollTrigger  
+- **Deployment:** Vercel  
+
+### 1. Clone the repo  
+```bash
+git clone https://github.com/your-username/wander-travels.git
+cd wander-travels
+npm install
+npm run dev
+
+
+
