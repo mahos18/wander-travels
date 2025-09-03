@@ -8,12 +8,14 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from '@gsap/react';
 import { useRef } from 'react'
 
+
 const Home = () => {
   const navref=useRef();
   const navButtonref=useRef();
   const heroref=useRef();
   gsap.registerPlugin(useGSAP);
   gsap.registerPlugin(ScrollTrigger);
+  
   useGSAP(()=>{
     const tl1=gsap.timeline()
     tl1.from(".container",{
@@ -36,7 +38,8 @@ const Home = () => {
       scale:0.8,
       opacity:0,
       duration:0.6,
-      stagger:0.2
+      stagger:0.2,
+      pin:true
     })
 
   })

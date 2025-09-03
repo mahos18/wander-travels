@@ -18,9 +18,8 @@ const About = () => {
           trigger: bodyref.current,
           start: "top top",     // when ranch hits top
           end: "+=200%",        // scroll distance
-          scrub: true,
-          pin: true,            // keep ranch fixed
-          markers: true         // remove in production
+          scrub: 0.1,
+          pin: true     // remove in production
         }
       });
 

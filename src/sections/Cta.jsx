@@ -19,9 +19,8 @@ const Cta = () => {
             trigger: aboutRef.current,
             start: "top top",    // when section hits top
             end: "+=100%",       // scroll distance for animation
-            scrub: true,         // smooth animation while scrolling
-            pin: true,           // keep section fixed
-            markers: true        // remove later
+            scrub: 0.1,         // smooth animation while scrolling
+            pin: true      
           }
         }
       )

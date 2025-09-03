@@ -13,6 +13,10 @@
   }
 }
 
+/* *{
+background-color: #EFE5D7;
+} */
+
 .main{
   @apply max-w-full overflow-x-hidden;
 }
@@ -31,5 +35,8 @@
 
 #ranch{
   overflow-y: hidden;
+}
+.featurecard{
+  overflow-x: hidden;
 }
 
