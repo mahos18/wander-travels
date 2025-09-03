@@ -46,7 +46,8 @@ const Home = () => {
 
 
   return (
-    <>
+    <>  
+
         <div id='home' className="main  h-[100vh] lg:h-[100vh] w-[100%] bg-[#EFE5D7] text-white flex items-center justify-center z-[1]">
           <div className="container  h-[96%]   lg:h-[96%]   w-[98%]  rounded-3xl relative z-[2]" >
             <Video source="/bg2.mp4"/>
