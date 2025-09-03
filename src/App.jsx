@@ -23,8 +23,6 @@ function App() {
       <Features/>
       <Cta2/>
       <Footer/>
-
-
     </>
   )
 }

@@ -10,7 +10,7 @@ const Features = () => {
 
 
       <div className="featurecard min-h-[50vh] lg:h-[90vh] w-[95vw] lg:w-[80vw]  m-5 p-5 grid grid-cols-1 lg:grid-cols-2  rounded-xl ">
-        <div className="featureimg  h-[20vh] w-full lg:h-[100%] lg:w-[1/2] overflow-hidden rounded-2xl">
+        <div className="featureimg  h-[25vh] w-full lg:h-[100%] lg:w-[1/2] overflow-hidden rounded-2xl">
           <img src="/images/mountain.jpg" alt="cover" className="h-full w-full object-cover" />
         </div>
         <div className="featurecontent   lg:h-[100%] lg:w-[100%] flex  flex-row items-center justify-center ">
@@ -23,7 +23,7 @@ const Features = () => {
       </div>
 
       <div className="featurecard min-h-[50vh] lg:h-[90vh] w-[95vw] lg:w-[80vw]  m-5 p-5 grid grid-cols-1 lg:grid-cols-2  rounded-xl">
-        <div className="featureimg lg:hidden flex h-[20vh] w-full lg:h-[100%] lg:w-[1/2] overflow-hidden rounded-2xl">
+        <div className="featureimg lg:hidden flex h-[25vh] w-full lg:h-[100%] lg:w-[1/2] overflow-hidden rounded-2xl">
           <img src="/images/spirit.jpg" alt="cover" className="h-full w-full object-cover" />
         </div>
         <div className="featurecontent   lg:h-[100%] lg:w-[100%] flex  flex-row items-center justify-center px-2">
@@ -33,13 +33,13 @@ const Features = () => {
               <p className='text-[1.1em] text-center '>Every journey is more than miles traveled. It’s the spirit of discovery — finding yourself while finding the world.</p>
             </div> 
         </div>
-        <div className="featureimg lg:flex hidden h-[20vh] w-full lg:h-[100%] lg:w-[1/2] overflow-hidden rounded-2xl">
+        <div className="featureimg lg:flex hidden h-[25vh] w-full lg:h-[100%] lg:w-[1/2] overflow-hidden rounded-2xl">
           <img src="/images/spirit.jpg" alt="cover" className="h-full w-full object-cover" />
         </div>
       </div>
 
       <div className="featurecard min-h-[50vh] lg:h-[90vh] w-[95vw] lg:w-[80vw]  m-5 p-5 grid grid-cols-1 lg:grid-cols-2  rounded-xl ">
-        <div className="featureimg  h-[20vh] w-full lg:h-[100%] lg:w-[1/2] overflow-hidden rounded-2xl">
+        <div className="featureimg  h-[25vh] w-full lg:h-[100%] lg:w-[1/2] overflow-hidden rounded-2xl">
           <img src="/images/vision.jpg" alt="cover" className="h-full w-full object-cover" />
         </div>
         <div className="featurecontent   lg:h-[100%] lg:w-[100%] flex flex-row items-center justify-center  ">

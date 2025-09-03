@@ -29,6 +29,7 @@
   font-family :"TASA Explorer", sans-serif;
 }
 
-#nav-links{
-  cursor: hand;
+#ranch{
+  overflow-y: hidden;
 }
+
