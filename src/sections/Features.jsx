@@ -31,8 +31,7 @@ const Features = () => {
           trigger: bodyref.current,
           start: isMobile ? "top 50%" : "top 80%",   
           end: isMobile ? "+=150%" : "+=300%",       
-          scrub: 0.9,
-          markers:true 
+          scrub: 0.9
           
         }
       });
