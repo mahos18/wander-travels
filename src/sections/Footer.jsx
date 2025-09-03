@@ -3,7 +3,7 @@ import CTA_button from '../components/CTA_button'
 
 const Footer = () => {
   return (
-    <div className="main  lg:h-[100vh] h-[70vh] w-[100%] bg-[#EFE5D7] text-white flex items-end lg: justify-evenly z-[1] ">
+    <div className="main  lg:h-[100vh] h-[90vh] w-[100%] bg-[#EFE5D7] text-white flex items-end lg: justify-evenly z-[1]  ">
     <div className="footer-container h-[100%] w-[95%] p-auto  text-black">
       <div className="footer-part1 min-h-[60%] lg:h-[60%] w-[100%]  flex lg:flex-row flex-col lg:gap-10 py-auto">
         <div className="grid1  h-[40%] w-[100%]   lg:h-[100%] lg:w-[60%] flex flex-col justify-evenly gap-5 ">

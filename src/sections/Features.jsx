@@ -63,7 +63,7 @@ const Features = () => {
         </div>
         <div className="featurecontent   lg:h-[100%] lg:w-[100%] flex  flex-row items-center justify-center ">
             <div className="text-wrapper  m-15 flex flex-col items-center justify-end">
-              <h1 className='text-[2.5em] main '>THE LAND </h1>
+              <h1 className='text-[1.5em] lg:text-[2.5em] main '>THE LAND </h1>
               <img src="/images/divider.png" className='scale-[0.7]' alt="________" />
               <p className='text-[1.1em] text-center '>From mountains that breathe silence to coasts that sing with waves — the land carries stories older than time.</p>
             </div> 
@@ -76,7 +76,7 @@ const Features = () => {
         </div>
         <div className="featurecontent   lg:h-[100%] lg:w-[100%] flex  flex-row items-center justify-center px-2">
             <div className="text-wrapper  m-15 flex flex-col items-center justify-end">
-              <h1 className='text-[2.5em] main '>THE SPIRIT </h1>
+              <h1 className='  text-[1.5em] lg:text-[2.5em] main '>THE SPIRIT </h1>
               <img src="/images/divider.png" className='scale-[0.7]' alt="________" />
               <p className='text-[1.1em] text-center '>Every journey is more than miles traveled. It’s the spirit of discovery — finding yourself while finding the world.</p>
             </div> 
@@ -92,7 +92,7 @@ const Features = () => {
         </div>
         <div className="featurecontent   lg:h-[100%] lg:w-[100%] flex flex-row items-center justify-center  ">
             <div className="text-wrapper  m-15 flex flex-col items-center justify-center">
-              <h1 className='text-[2.2em] main '>THE VISION </h1>
+              <h1 className='text-[1.5em] lg:text-[2.5em] main '>THE VISION </h1>
               <img src="/images/divider.png" className='scale-[0.7]' alt="________" />
               <p className='text-[1.1em] text-center '>A future of travel that is mindful, modern, and meaningful. Where journeys connect people, places, and purpose.</p>
             </div> 

@@ -9,22 +9,44 @@ import Cta2 from './sections/Cta2'
 import Features from './sections/Features'
 import Footer from './sections/Footer'
 import About from './sections/About'
+import Preloader from './sections/Preloader'
+import { useEffect } from 'react'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [loading, setLoading] = useState(true);
 
-  return (
-    <>
+  useEffect(() => {
+    const handleLoad = () => {
+      setLoading(false);
+    };
+
+    if (document.readyState === "complete") {
       
-      <Home/>
-      <About/>
-      <Cta/>
-      <Features/>
-      <Cta2/>
-      <Footer/>
+      setLoading(false);
+    } else {
+      window.addEventListener("load", handleLoad);
+      return () => window.removeEventListener("load", handleLoad);
+    }
+  }, []);
+  
+
+   return (
+    <>  
+      {loading ? (
+        <Preloader />
+      ) : (
+        <>
+          <Home />
+          <About />
+          <Cta />
+          <Features />
+          <Cta2 />
+          <Footer />
+        </>
+      )}
     </>
-  )
+  );
 }
 
 export default App
