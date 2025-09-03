@@ -23,9 +23,7 @@ This project reimagines travel experiences with smooth scrolling animations, res
 ```bash
 git clone https://github.com/your-username/wander-travels.git
 cd wander-travels
-# install dependencies
 npm install
-
 npm run dev
 
 
